@@ -3,7 +3,7 @@
 
 Summary:	Libopennet allows you to open_net() files the same way you open() them now
 Name:		libopennet
-Version:	0.9.3
+Version:	0.9.9
 Release:	%mkrel 1
 Group:		System/Libraries
 License:	LGPL
@@ -66,7 +66,8 @@ perl -pi -e "s|^SHOBJFLAGS.*|SHOBJFLAGS=-Wl,-soname=%{name}.so.%{major} -shared 
 %files -n %{libname}
 %defattr(-,root,root)
 %doc ChangeLog LICENSE README
-%{_libdir}/*.so.*
+%{_libdir}/*.so.%{major}
+%{_libdir}/*.so.%{major}.*
 
 %files -n %{libname}-devel
 %defattr(-,root,root)
