@@ -4,7 +4,7 @@
 Summary:	Libopennet allows you to open_net() files the same way you open() them now
 Name:		libopennet
 Version:	0.9.9
-Release:	%mkrel 1
+Release:	%mkrel 3
 Group:		System/Libraries
 License:	LGPL
 URL:		http://www.rkeene.org/oss/libopennet/
