@@ -7,7 +7,7 @@ Version:	0.9.9
 Release:	%mkrel 4
 Group:		System/Libraries
 License:	LGPL
-URL:		http://www.rkeene.org/oss/libopennet/
+URL:		https://www.rkeene.org/oss/libopennet/
 Source0:	http://www.rkeene.org/files/oss/libopennet/%{name}-%{version}.tar.bz2
 Patch0:		libopennet-0.9.3-DESTDIR.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
