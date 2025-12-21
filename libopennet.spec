@@ -12,6 +12,11 @@ Source0:	http://www.rkeene.org/files/oss/libopennet/%{name}-%{version}.tar.bz2
 Patch0:		libopennet-0.9.3-DESTDIR.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Libopennet allows you to open_net()  urls (or files, for that matter) the same
 way you would normally open() just files.
